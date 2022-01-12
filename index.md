@@ -6,8 +6,7 @@ Polar Bear
 # Heading 1
 ## Heading 2
 [Link](https://youtube.com)
-![Image]
-(https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg)
+![Image](https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg)
 > Blockquote
 * List
 * List
