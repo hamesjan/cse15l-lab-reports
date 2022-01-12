@@ -8,6 +8,9 @@ _Italic_
 
 ## Heading 2
 
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://hamesjan.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
 [Link](https://youtube.com)
 ![Image](https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg)
 
