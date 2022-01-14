@@ -1,40 +1,22 @@
 James Han
-Polar Bear
 
-_Italic_
-**Bold**
-
-# Heading 1
-
-## Heading 2
-
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](https://hamesjan.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
-
-[Link](https://youtube.com)
-![Image](https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg)
-
-> Blockquote
-
-- List
-- List
-- List
-
-1. One
-2. Two
-3. Three
-
-hi hih ih ih ih ih ihi hi h
-**Spiderman**
-
-Horizontal rule:
+**This site will hold my lab reports for CSE15L Winter 2022!**
 
 ---
 
-`Inline code` with backticks
+## Lab Reports
 
-```
-# code block
-print 'hello'
-print 'ok'
-```
+- [Lab Report 1](https://hamesjan.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+---
+
+## About Me
+
+I am a Korean American 18 year old.
+I was born in Melbourne, Florida, but I spent the majority of my childhood in Torrance, California, located in Los Angeles County
+
+- [Youtube](https://www.youtube.com/channel/UCUGrCmGgxLqBKV1KeoIK1mg)
+- [Instagram](https://www.instagram.com/hamesjan/)
+- [DevPost](https://devpost.com/hamesjan)
+- [GitHub](https://github.com/hamesjan)
+  ![Image](https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg)
