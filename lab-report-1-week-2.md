@@ -21,7 +21,7 @@ There will be 6 steps for this tutorial
   > [Link to install VSCode](https://code.visualstudio.com/)
 
 2. When you are finished, open VSCode and it should look something like this.
-   ![Image](VScode.png)
+   ![Image](lr1-images/VScode.png)
 
 ---
 
@@ -32,7 +32,7 @@ There will be 6 steps for this tutorial
 2. Look up your course specific account on
    > [UCSD accounts](https://sdacs.ucsd.edu/~icc/index.php)
 3. Open up a terminal by clikcing the following button
-   ![Image](step2pic.png)
+   ![Image](lr1-images/step2pic.png)
 4. Now type the following commands into the terminal with zz replaced with your account
    > `ssh cs15lwi22zz@ieng6.ucsd.edu`
 5. The first time you try connecting, you will get a message asking about the authenticity of host. Just say yes and go on.
@@ -106,11 +106,11 @@ Thu Jan 13, 2022  4:56pm - Prepping cs15lwi22
 1. Try running some commands on the remote computer and diving into the structure and contents of the server.
 
 - ls
-- ![Image](step3pic.png)
+- ![Image](lr1-images/step3pic.png)
 - pwd
-- ![Image](step3pic2.png)
+- ![Image](lr1-images/step3pic2.png)
 - exit
-- ![Image](step3pic3.png)
+- ![Image](lr1-images/step3pic3.png)
 
 ---
 
@@ -123,10 +123,10 @@ Thu Jan 13, 2022  4:56pm - Prepping cs15lwi22
 
 2. The `:~/` at the end of the command means the file will be moved to the home directory of the server.
 3. This should be the result when scp-ing files
-   ![Image](step4pic.png)
+   ![Image](lr1-images/step4pic.png)
 4. Then, after logging in to the remote, we can run command `ls` in order to check if the file is there.
 5. As we can see, it is.
-   ![Image](step4pic2.png)
+   ![Image](lr1-images/step4pic2.png)
 
 ---
 
@@ -183,7 +183,7 @@ Jamess-MacBook-Pro-2:cse15l-lab-reports jameshan$ scp /Users/hamesjan/.ssh/id_rs
 ```
 
 9. After your key has been moved, you should get a message like this.
-   ![Image](step5pic1.png)
+   ![Image](lr1-images/step5pic1.png)
 10. Now you should be able to scp or ssh from this client to the server without being asked for a password
 
 ---
@@ -206,6 +206,6 @@ WhereAmI.java
 - You can use tab to automatically finish long filenames
 - You can press the up arrow on the terminal to bring up past commands
 - You can execute multiple commands in order by using semicolons.
-  ![Image](step6pic1.png)
+  ![Image](lr1-images/step6pic1.png)
 
 ---
