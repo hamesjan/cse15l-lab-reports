@@ -13,7 +13,10 @@
    Setting up these configurations will allow you to shortcut your way into ieng6, or any server.
    ![editing config](lr3-images/edit_config.png)
 
-3. You can do other cool things, like scp using the alias!
+3. By writing "$ssh [Host Name]" you can shortcut into ieng6.
+   ![shortcut working](lr3-images/alias_working.png)
+
+4. You can do other cool things, like scp using the alias!
    ![scp working](lr3-images/scp_working.png)
 
 > If you log into ieng6 and do ls -l, you can see that the folder has been copied using the alias
