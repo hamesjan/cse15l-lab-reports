@@ -27,7 +27,8 @@ My implementation is correct for this test, while their implmentation is wrong. 
 Actual output:
 
 ```
-[url]
+My implementation: []
+Their implmenetation: [url]
 ```
 
 Expected output:
@@ -49,11 +50,12 @@ The bug in their implmentation is that they do not check if the open parenthesis
 
 # Test 2
 
-My implmentation is correct for this test, while their implmentation is wrong.
+My implmentation is incorrect for this test, while their implmentation is correct. We know this because in the test file, we need the link between the parenthesis, which also can not contain any whitespace within the link.
 Actual output:
 
 ```
-[baz]
+My implementation: [/bar\* "ti\*tle"]
+Their implmentation: []
 ```
 
 Expected:
@@ -62,11 +64,6 @@ Expected:
 []
 ```
 
-The bug in this code is exactly similar to the one described above. By adding an if check right before adding to the toReturn that checks whether the position of the open parenthesis is right after the close bracket, we can be sure to only add links that have the correct syntax.
+The bug in this code is that we are not checking whether the text within the parenthesis is stripped of whitespace. We can fix this simply by adding an if check before adding to return that checks if whether the link stripped is equal to the link itself.
 
-```
- if (nextCloseBracket + 1 == openParen) {
-                // add to to return
-            }
-
-```
+![Image](lr5-images/fix1.png)
